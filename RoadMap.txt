@@ -1,0 +1,138 @@
+¡Claro! Aquí tienes un **temario o roadmap** para estudiar Flask de manera estructurada. Este plan te llevará desde los conceptos básicos hasta temas avanzados, permitiéndote construir aplicaciones web completas con Flask.
+
+---
+
+## **Roadmap para Aprender Flask**
+
+### **1. Introducción a Flask**
+   - ¿Qué es Flask y por qué usarlo?
+   - Instalación de Flask.
+   - Creación de tu primera aplicación Flask.
+   - Estructura básica de un proyecto Flask.
+
+---
+
+### **2. Rutas y Vistas**
+   - Definición de rutas con `@app.route`.
+   - Parámetros en las rutas (variables en la URL).
+   - Métodos HTTP: GET, POST, PUT, DELETE.
+   - Devolver diferentes tipos de respuestas (texto, JSON, HTML).
+
+---
+
+### **3. Plantillas con Jinja2**
+   - Introducción a Jinja2.
+   - Creación y renderizado de plantillas HTML.
+   - Uso de variables y expresiones en plantillas.
+   - Herencia de plantillas (usar `extends` y `block`).
+   - Inclusión de plantillas parciales (`include`).
+   - Filtros y bucles en Jinja2.
+
+---
+
+### **4. Formularios y Datos**
+   - Manejo de formularios HTML.
+   - Uso de `request` para obtener datos del cliente.
+   - Validación de datos.
+   - Redireccionamientos con `redirect` y `url_for`.
+   - Mensajes flash para retroalimentación al usuario.
+
+---
+
+### **5. Bases de Datos**
+   - Introducción a bases de datos relacionales.
+   - Uso de SQLite con Flask.
+   - Integración con SQLAlchemy (ORM para Flask).
+   - Creación de modelos y migraciones.
+   - Consultas básicas y avanzadas.
+   - Uso de Flask-Migrate para manejar migraciones.
+
+---
+
+### **6. Autenticación y Autorización**
+   - Creación de un sistema de registro y login.
+   - Uso de Flask-Login para manejar sesiones de usuario.
+   - Hash de contraseñas con Werkzeug.
+   - Protección de rutas con decoradores.
+   - Roles y permisos de usuario.
+
+---
+
+### **7. APIs RESTful con Flask**
+   - ¿Qué es una API REST?
+   - Creación de endpoints para una API.
+   - Uso de Flask-RESTful o Flask para construir APIs.
+   - Serialización de datos con Marshmallow.
+   - Manejo de autenticación en APIs (tokens JWT).
+
+---
+
+### **8. Manejo de Errores**
+   - Personalización de páginas de error (404, 500, etc.).
+   - Manejo de excepciones en Flask.
+   - Logging para registrar errores y eventos.
+
+---
+
+### **9. Archivos Estáticos y Subida de Archivos**
+   - Uso de archivos estáticos (CSS, JS, imágenes).
+   - Subida y manejo de archivos en Flask.
+   - Validación de archivos subidos.
+   - Almacenamiento de archivos en el servidor o en la nube.
+
+---
+
+### **10. Despliegue de Aplicaciones Flask**
+   - Preparación de la aplicación para producción.
+   - Uso de servidores WSGI (Gunicorn, uWSGI).
+   - Despliegue en plataformas en la nube (Heroku, AWS, Google Cloud, etc.).
+   - Configuración de dominios y HTTPS.
+   - Uso de Docker para contenerizar la aplicación.
+
+---
+
+### **11. Pruebas y Depuración**
+   - Pruebas unitarias con `unittest` o `pytest`.
+   - Pruebas de integración para rutas y vistas.
+   - Depuración de aplicaciones Flask.
+   - Uso de herramientas como Postman para probar APIs.
+
+---
+
+### **12. Temas Avanzados**
+   - Uso de WebSockets con Flask-SocketIO.
+   - Creación de tareas en segundo plano con Celery.
+   - Integración con servicios externos (APIs de terceros).
+   - Uso de caché con Flask-Caching.
+   - Internacionalización y localización (i18n y l10n).
+
+---
+
+### **13. Proyectos Prácticos**
+   - Creación de un blog simple.
+   - Desarrollo de una aplicación de lista de tareas (To-Do App).
+   - Construcción de una API RESTful para un sistema de inventario.
+   - Desarrollo de una aplicación de comercio electrónico básica.
+   - Creación de un sistema de autenticación con roles y permisos.
+
+---
+
+### **14. Recursos Adicionales**
+   - [Documentación oficial de Flask](https://flask.palletsprojects.com/).
+   - Tutoriales en YouTube (canales como Corey Schafer o FreeCodeCamp).
+   - Libros recomendados:
+     - *"Flask Web Development"* de Miguel Grinberg.
+     - *"Mastering Flask"* de Jack Stouffer.
+   - Cursos en línea (Platzi, Udemy, Coursera).
+
+---
+
+### **Consejos para Estudiar Flask**
+1. **Practica mucho**: Crea pequeños proyectos para aplicar lo que aprendes.
+2. **Revisa el código de otros**: Explora proyectos en GitHub para ver cómo estructuran sus aplicaciones.
+3. **Únete a comunidades**: Participa en foros como Stack Overflow, Reddit o grupos de Discord.
+4. **No te rindas**: Flask es fácil de aprender, pero lleva tiempo dominarlo. Sé constante.
+
+---
+
+¡Con este roadmap estarás listo para convertirte en un experto en Flask! Si tienes dudas o necesitas más detalles sobre algún tema, no dudes en preguntar. 😊
